@@ -123,6 +123,14 @@ a.facebook{
 .download img{
     width: 130px;
 }
+@media screen and (max-width: 1024px) {
+    .instagram-phone{
+        display: none;
+    }
+    .instagram-continue{
+        width: 80%;
+    }
+}
 
 /*
 @media (max-width: 1024){
