@@ -87,6 +87,10 @@ input.iniciar{
 p.ou{
     
     text-align: center;
+    width: 80%;
+}
+.traco{
+    width: 40%;
 }
 
 a{
@@ -130,6 +134,17 @@ a.facebook{
     .instagram-continue{
         width: 80%;
     }
+}
+
+@media screen and (max-width: 650px) {
+    .instagram-wrapper{
+        
+    }
+    .instagram-continue{
+        width: 100%;
+        margin-left: 0;
+    }
+    
 }
 
 /*
