@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>INSTAGRAM</title>
 </head>
 <body>
+    
     <div class="instagram-wrapper">
         <div class="instagram-phone">
-            <img src="/img/smartphone.png" alt="smartphone">
+            <img class="celular" src="/img/smartphone3-menor.png" alt="smartphone">
         </div>
         <div class="instagram-continue">
             <div class="group">
                 <img src="/img/instagram-logo.png" class="instagram-logo" alt="logo do instagram">
-                <input type="text" name="login" id="login">
-                <input type="password" name="senha" id="senha">
-                <p>
-                    ---------- ou ----------
+                <input type="text" name="login" id="login" placeholder="Número de telemóvel, nome de utilizador ou...">
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+                <input type="button" value="Iniciar sessão" class="iniciar">
+                <p class="ou">
+                    <img src="/img/linha.png" alt=""> ou <img src="/img/linha.png" alt="">
                 </p>
-                <a href="#">Iniciar sessão com Facebook</a>
+                <a href="#" class="facebook">
+                    <img src="/img/facebook-icone.png" alt="">
+                    Iniciar sessão com Facebook</a>
                 <a href="#">Esqueceu da palavra-chave?</a>
             </div>
+            <div class="group">
+                <p>Não tem conta? <a href="#">Registre-se</a></p>
+            </div>
+            <div class="get-app">
+                <p>Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="" class="app-download">
+                        <img src="/img/botao-applestore-menor.jpg" alt="">
+                    </a>
+                    <a href="" class="app-download">
+                        <img src="/img/botao-googlestore-menor.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            
         </div>
     </div>
 </body>
